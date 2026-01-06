@@ -13,6 +13,11 @@
 
 header{
     background-color: #FFF8F3;
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: 50px center,right bottom;
+    
+    
 }
 nav{
     display: flex;
@@ -21,7 +26,6 @@ nav{
     width: 71%;
     max-width: 1140px;
      padding: 40px 0;
-     border:2px solid green;
      margin:0 auto;
 }
 nav ul{
@@ -49,13 +53,58 @@ nav a{
     font-size: 20px;
     color:white;
     background-color: #FD6E0A;
-    padding: 20px;
+    padding:16px 20px;
     font-weight: bold;
     border:none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .color-orange{
     color:#FD6E0A;
 }
 
+
+
+
+
+/* hero section */
+#banner-container{
+    display: flex;
+    margin:0 25px 0 230px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:163px; */
+    
+}
+.banner-content{
+    width: 585px;
+}
+
+#banner-container h2{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#banner-container h1{
+    color:#181818;
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-sub-title{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.banner-btn{
+    display: flex;
+    gap:30px;
+}
+
+#banner-container figure img{
+    vertical-align: bottom;
+}
