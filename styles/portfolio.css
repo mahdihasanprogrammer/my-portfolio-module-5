@@ -15,7 +15,7 @@ header{
     background-color: #FFF8F3;
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: 50px center,right bottom;
+    background-position: 23px center,right bottom;
     
     
 }
@@ -247,3 +247,58 @@ main{
    text-align: center;
    margin-top: 50px;
 }
+
+/* footer section */
+.footer{
+    background-color: #FFF8F3;
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
+    gap:116px;
+   
+}
+.connect{
+    max-width: 562px;
+}
+
+.connect h2, .message h2{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 24px;
+}
+.connect p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.connect div{
+    display: flex;
+    gap:24px;
+}
+
+.message {
+    width:461px;
+}
+.message fieldset{
+    border:none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+   
+}
+.message fieldset input, .message fieldset textarea{
+    padding: 18px 30px;
+    border:none;
+     border-radius: 10px;
+     width: 100%;
+}
+
