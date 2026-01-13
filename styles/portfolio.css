@@ -92,9 +92,9 @@ nav a{
 #banner-container{
     display: flex;
     margin:0 25px 0 230px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /* gap:163px; */
+    gap:163px;
     
 }
 .banner-content{
@@ -122,6 +122,7 @@ nav a{
 
 .banner-btn{
     display: flex;
+    flex-wrap: wrap;
     gap:30px;
 }
 
@@ -300,5 +301,104 @@ main{
     border:none;
      border-radius: 10px;
      width: 100%;
+}
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:576px){
+
+    
+header {
+  
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:  right bottom;
+}
+    nav {
+    width: 95%;
+    flex-direction: column;
+    gap:16px;
+}
+nav ul {
+    justify-content:center;
+    flex-wrap: wrap;
+ 
+  
+}
+.primary-btn{
+    padding: 10px 14px;
+    font-weight: 600;
+}
+
+#banner-container{
+        margin: 0px;
+}
+.banner-content {
+    width: 95%;
+    text-align: center;
+}
+#banner-container h2{
+    font-size: 28px;
+}
+#banner-container h1{
+    font-size: 40px;
+}
+.banner-btn{
+    justify-content: center;
+}
+#banner-container img{
+    width: 100%;
+}
+
+    /* main part */
+    main {
+    width: 95%;
+}
+.about-container{
+    padding: 20px;
+}
+
+#banner-container,.about-info,.resume-container,.skills-content,.footer-container{
+    flex-direction: column;
+}
+
+.about-info{
+    gap:16px;
+}
+
+#skills,#about, .resume{
+    margin: 70px 0;
+}
+.section-heading {
+    text-align: justify;
+    text-align-last: center;
+}
+.skills-content {
+    gap: 16px;
+
+}
+.resume .title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.education-title, .experience-title {
+    margin-left: 16px;
+}
+.resume-card {
+    margin: 16px;
+}
+.footer-container {
+    width: 95%;
+    padding:40px 20px;
+    gap: 20px;
+}
+.message {
+    width:100%;
+}
+ fieldset div button{
+    width: 100%;
+ }
 }
 
